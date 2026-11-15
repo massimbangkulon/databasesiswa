@@ -141,7 +141,7 @@ export const ClassInputSelect: React.FC<ClassInputSelectProps> = ({
                       : 'text-gray-600 hover:text-indigo-600'
                   }`}
                 >
-                  <School size={12} /> SD (1-6)
+                  <School size={12} /> MTS (7-8)
                 </button>
                 <button
                   type="button"
@@ -152,7 +152,7 @@ export const ClassInputSelect: React.FC<ClassInputSelectProps> = ({
                       : 'text-gray-600 hover:text-indigo-600'
                   }`}
                 >
-                  <GraduationCap size={12} /> SMP (7-9)
+                  <GraduationCap size={12} /> MA (10-12)
                 </button>
               </div>
             </div>
