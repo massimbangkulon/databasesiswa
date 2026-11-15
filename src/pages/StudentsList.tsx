@@ -240,7 +240,7 @@ export default function StudentsList() {
 
   const downloadPDF = () => {
     const doc = new jsPDF();
-    const title = `Daftar Siswa SD - ${filterClass ? 'Kelas ' + filterClass : 'Semua Kelas'}`;
+    const title = `Daftar Siswa MA - ${filterClass ? 'Kelas ' + filterClass : 'Semua Kelas'}`;
     
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(16);
@@ -378,7 +378,7 @@ export default function StudentsList() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-indigo-900">Data Siswa</h2>
-          <p className="text-gray-500 mt-1 font-medium">Kelola data murid kelas 1-6.</p>
+          <p className="text-gray-500 mt-1 font-medium">Kelola data murid kelas X-XI-XII.</p>
         </div>
         
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 w-full sm:w-auto">
@@ -965,7 +965,7 @@ export default function StudentsList() {
            
            <div className="text-center mb-6 border-b-2 border-slate-800 pb-3">
               <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight">Biodata Siswa</h1>
-              <p className="text-slate-600 text-sm font-medium">Sekolah Dasar</p>
+              <p className="text-slate-600 text-sm font-medium">MA Salafiyah Simbangkulon</p>
            </div>
            
            <div className="flex flex-row justify-between items-start gap-6 mb-6">
